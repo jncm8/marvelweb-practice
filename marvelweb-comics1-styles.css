@@ -77,6 +77,8 @@ ul {
 
 .latestnews {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap:   26px;
     flex-direction: row;
     padding: 25px;
@@ -96,6 +98,8 @@ ul {
 
 .latestcomics {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     flex-direction: row;
     padding 25px;
@@ -146,6 +150,8 @@ ul {
 
 .freereadmaincontainer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 100px;
     flex-direction: row;
     padding: 25px;
