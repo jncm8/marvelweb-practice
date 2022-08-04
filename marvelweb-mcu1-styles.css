@@ -1,0 +1,207 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: red;
+
+ /* dont put these:   border-bottom:#1f2937 solid 3px;
+    height: 100px;
+    width: 1335px; */
+
+
+}
+
+.logo {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+.linksright, .logoleft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight:bold;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    gap: 22px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+}
+
+.text {
+    color: black;
+    font-weight: lighter;
+}
+
+.latestnewssubtitle {
+    margin-top: 5px;
+}
+
+.latestcontainer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: black;
+    padding: 12px;
+    background-image: url(marveltrans.jpeg)
+}
+
+.latestnews {
+    display: flex;
+    gap:   15px;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+.latestnewscontainer {
+    max-width: 425px;
+}
+
+.latestnewsimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 425px;
+}
+
+.latestmcu {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 12px;
+}
+
+.latestmcuimg {
+    display: flex;
+    height: 450px;
+    width: auto;
+}
+
+.latestmcusubtitle {
+    margin-top: 5px;
+}
+
+.latestmcucontainer {
+    max-width: 500px;
+}
+
+.charactersmaincontainer {
+    display:flex;
+    background-color: red;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.characterslink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.characterimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: auto;
+} 
+
+.boxofficeranking {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(marveltrans.jpeg)
+    
+}
+
+.boxofficerankingmaincontainer {
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 12px;
+}
+
+
+
+.boxofficerankingcontainer {
+    max-width: 220px;
+}
+
+.boxofficerankingtitle {
+    display: flex;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.boxofficerankingsubtitle {
+    margin-left: 30px;
+}
+
+.boxofficerankingimg {
+    display: flex;
+    height: 420px;
+    width: auto;
+}
+
+
+.footer {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footertext {
+    color: white
+}

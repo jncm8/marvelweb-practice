@@ -1,0 +1,362 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body {
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: red;
+
+ /* dont put these:   border-bottom:#1f2937 solid 3px;
+    height: 100px;
+    width: 1335px; */
+
+
+}
+
+.logo {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+.linksright, .logoleft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight:bold;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    gap: 22px;
+  }
+
+.container1{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.box1 {
+    margin-bottom: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-right: 0px;
+    align-items: center;
+    height: 150px;
+    width: 500px;
+    padding: 22px;
+}
+
+
+.box1text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-align: left;
+    
+}
+
+.box1text2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+
+}
+
+.box1button {
+    display: flex;
+    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    width:99px;
+    border-radius:25px;
+}
+
+.button1 {
+    display: flex;
+    background-color: goldenrod;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+}
+
+.box2 {
+    display: flex;
+    background-color: lightsalmon;
+    opacity: 0.85;
+    margin-left: 2px;
+    margin-right: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 400px;
+    padding: 15px;
+}
+
+.Marvellogo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    background-image: url(marveltrans.jpeg)
+  }
+  
+.infotitle {
+    display: flex;
+    font-weight: bold;
+  }
+  
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+.infoimg {
+    display: flex;
+    border: 5px solid lightcoral;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius:25px;
+}
+
+.marvelcomicslogo {
+    padding: 10px;
+    height: 140px;
+    width: 230px;
+}
+
+.marvelstudioslogo {
+    height: 160px;
+    width: 310px;
+}
+  
+.info {
+    display: flex;
+    max-width: 250px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.container3 {
+    display: flex;
+    background-color: red;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.marvelnews1 {
+    display: flex;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration-color: brown;
+    justify-content: center;
+    align-items: center;
+    height: 200x;
+    width: 900px;
+    padding: 0.5px;
+    margin-left: 90px;
+}
+
+.latestcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.latestcomicsnews {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: light;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 9px;
+    flex-direction: column;
+
+}
+
+.latestmcunews {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: light;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 9px;
+    flex-direction: column;
+
+}
+
+.latestseriesnews {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: light;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 9px;
+    flex-direction: column;
+
+}
+
+.latestgamenews {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: light;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.latestnewscontainer {
+    display: flex;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(marveltrans.jpeg)
+}
+
+.actioncall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    height:100px;
+    width: 600px;
+    flex-direction: column;
+    padding: 25px;
+    margin-right:0px;
+ 
+  }
+
+.actioncallbox1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    height:80px;
+    width: 600px;
+    margin-left: 150px;
+}
+
+.actioncallbox2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    background-color: goldenrod;
+    color: white;
+    font-size: 18px;
+    height:80px;
+    width: 600px;
+    margin-left: 150px;
+    
+}
+
+.actioncallbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    height:100px;
+    width: 2000px;
+    padding: 25px;
+    margin-left:0px;
+
+  }
+
+.button2 {
+    display: flex;
+    background-color: goldenrod;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    padding: 8px;
+    width: 120px;
+    font-weight: bold;
+    border-radius:25px;
+}
+
+.footer {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footertext {
+    color: white
+}
+
