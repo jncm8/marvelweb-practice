@@ -51,6 +51,9 @@ ul {
 }
 
 .title {
+    display: flex;
+    justify-content: left;
+    align-items: left;
     font-weight: bold;
     font-size: 28px;
     color: red;
@@ -67,8 +70,6 @@ ul {
 
 .latestcontainer {
     display: flex;
-    justify-content: left;
-    align-items: left;
     flex-direction: column;
     color: black;
     padding: 12px;
@@ -77,15 +78,18 @@ ul {
 
 .latestnews {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap:   15px;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    padding: 12px;
+    padding: 25px;
 }
 
 .latestnewscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
     max-width: 425px;
 }
 
@@ -101,9 +105,7 @@ ul {
     display: flex;
     gap: 20px;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 12px;
+    padding: 25px;
 }
 
 .latestmcuimg {
@@ -161,17 +163,23 @@ ul {
 
 .boxofficerankingmaincontainer {
     display: flex;
-    gap: 100px;
+    justify-content: center;
+    gap: 80px;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 30px;
-    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
 
 .boxofficerankingcontainer {
-    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
 }
 
 .boxofficerankingtitle {
