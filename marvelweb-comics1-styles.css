@@ -102,7 +102,7 @@ ul {
     justify-content: center;
     gap: 20px;
     flex-direction: row;
-    padding 25px;
+    padding: 25px;
 }
 
 .latestcomicssubtitle {
@@ -150,17 +150,23 @@ ul {
 
 .freereadmaincontainer {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
     flex-direction: row;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 
 
 .freereadcontainer {
-    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
 }
 
 .freereadstitle {
@@ -168,12 +174,13 @@ ul {
     color: black;
     font-size: 19px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
 .freereadssubtitle {
-    margin-left: 30px;
+    display: flex;
+    margin-left: 10px;
 }
 
 .footer {
